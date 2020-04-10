@@ -1,0 +1,9 @@
+h1 {color: #cc0000}
+
+footer {font-size: 8pt}
+
+a:hover{color: red;}
+a{
+    text-decoration: none;
+    font-size: 10pt
+}
