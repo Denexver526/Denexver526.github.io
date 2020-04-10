@@ -1,7 +1,15 @@
+body {
+background-color: #C0C0C0;
+}
+
 h1 {
 color: #cc0000; 
 font-size: 16pt;
 font-family: sans-serif;
+border-style: solid;
+border-width: thick;
+border-color: black;
+background-color: blue;
 }
 
 h3 {
@@ -21,9 +29,16 @@ p {
  color: blue;
 }
 
-footer {font-size: 8pt}
+footer {
+ font-size: 8pt;
+ border-top-style: solid;
+ border-top-width: 2px;
+ border-top-color: black;
+}
 
-a:hover{color: red;}
+a:hover{
+ color: red;
+}
 a{
     text-decoration: none;
     font-size: 10pt
@@ -31,4 +46,6 @@ a{
 
 img {
  float: left;
+ margin: 2px;
+ padding: 20px;
 }
