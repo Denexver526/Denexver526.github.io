@@ -1,5 +1,15 @@
+/*<!--
+Title: Robinson CSS page
+Use: To make my webpages look fancy
+Author: Alex Robinson
+School/Term: University of Missouri, Spring 2020
+Developed: April 12, 2020
+Tested: April 12, 2020; passed on Firefox and Chrome browsers.
+-->*/
+
 body {
 background-color: #C0C0C0;
+margin: 15px;
 }
 
 h1 {
@@ -34,6 +44,7 @@ footer {
  border-top-style: solid;
  border-top-width: 2px;
  border-top-color: black;
+ padding: 5px;
 }
 
 a:hover{
