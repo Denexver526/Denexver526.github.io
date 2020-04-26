@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="nav.css">
 <style>
     ul.a{
         list-style-type: square;
@@ -12,17 +13,37 @@ Title: Robinson Background Webpage
 Use: Information on my background
 Author: Alex Robinson
 School/Term: University of Missouri, Spring 2020
-Developed: April 12, 2020
-Tested: April 12, 2020; passed on Firefox and Chrome browsers.
+Developed: April 26, 2020
+Tested: April 26, 2020; passed on Firefox and Chrome browsers.
 -->
                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
                <title>Background Page</title>
 </head>
 <body>
-<h1>Background</h1>
-<h2>Courses list with other pertitnant information</h2>
-    <h5 style="font-style: italic;">(Courses in italics are still being worked on)</h5>
+    <header>
+    <nav>
+        <label id="hamburger">&#9776;</label>
     <ul>
+        <li><a href="index.html">Home</a></li>  
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="project.html">Project</a>
+            <ul id="mobileHide">
+                <li><a href="project1.html">Project 1</a></li>
+                <li><a href="project2.html">Project 2</a></li>
+                <li><a href="project3.html">Project 3</a></li>
+            </ul>
+        </li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    </header>
+<h1>Background</h1>
+<h2>Courses list with other pertinent information</h2>
+    <h5 style="font-style: italic;">(Courses in italics are still being worked on)</h5>
+        <ul class="flex3">
         <li>Intermediate Web Development
         <ul>
         <li>Course Number: IS_LT 7370</li>
@@ -41,7 +62,7 @@ Tested: April 12, 2020; passed on Firefox and Chrome browsers.
         <li>Grade: A</li>
         </ul>
         </li>
-        <li>Formative and Sumative Evaluation
+        <li>Formative and Summative Evaluation
         <ul>
         <li>Course Number: IS_LT 9455</li>
         <li>Course Type: Design/Development</li>
@@ -68,7 +89,7 @@ Tested: April 12, 2020; passed on Firefox and Chrome browsers.
         <li>Grade: A</li>
         </ul>
         </li>
-        <li>Designing Online Leaning
+        <li>Designing Online Learning
         <ul>
         <li>Course Number: IS_LT 9485</li>
         <li>Course Type: Design</li>
@@ -104,7 +125,7 @@ Tested: April 12, 2020; passed on Firefox and Chrome browsers.
         <li>Grade: A</li>
         </ul>
         </li>
-        <li>Introduction to Research Methods in ISLT
+        <li>Introduction to Research Methods
         <ul>
         <li>Course Number: IS_LT 9450</li>
         <li>Course Type: Core</li>
@@ -131,13 +152,13 @@ Tested: April 12, 2020; passed on Firefox and Chrome browsers.
         <li>Grade: Current Course</li>
         </ul>
         </li>
-    </ul>
-    
+        </ul>
+        
 <h4>Course Descriptions</h4>
     <ul class="a">
     <li>Intermediate Web Development: Development of design and web authoring skills. Topics include CSS, HTML, web interactivity through the use of JavaScript, Dreamweaver and usability practices. </li>
     <li>Front End Analysis: Develop skills for systematically analyzing learning, or other types of systems, that need to be improved. Develop data collection instruments (e.g. surveys, observation protocols, interviews); analyze secondary data; analyze tasks or activities in the system, and interpret data to make recommendations for system improvement.  </li>
-    <li>Formative and Sumative Evaluation: Study of the process of gathering data and making judgments about the effectiveness of instructional programs that uses technology.  Covers techniques of a formative evaluation process to revise instruction.   </li>
+    <li>Formative and Summative Evaluation: Study of the process of gathering data and making judgments about the effectiveness of instructional programs that uses technology.  Covers techniques of a formative evaluation process to revise instruction.   </li>
     <li>Technology to Enhance Learning: Strategies for integrating technology into the teaching and learning process, with a focus on enhancing how students think rather than what they think.   </li>
     <li>Instructional Systems Design: Develop knowledge and skills related to the systematic design of instruction. Learn to analyze, design, develop, implement, and evaluate learning systems and instruction. </li>
     <li>Designing Online Leaning: This course teaches you to leverage existing software tools to design and develop online learning activities in multiple domains that are grounded in sound learning principles. </li>
@@ -147,8 +168,7 @@ Tested: April 12, 2020; passed on Firefox and Chrome browsers.
     <li>Introduction to Research Methods in ISLT: Methods in ISLT - Research methods and ethics of research in the social sciences, focusing on the information professions and learning technologies. </li>
     <li>Project management: This course introduces the learner to the necessary and practical project management concepts and skills that lead to reductions in project cycle time while maintaining control over budget, resources, risk, and delivered value.</li>
     <li>Web Design and Development: This course will provide students with foundation in designing and developing websites using HTML5 and CSS3. </li>
-    </ul>
-    
+    </ul>    
 <footer>Copyright&copy; 2020, Alex Robinson. <a href="mailto:agr5k2@mail.missouri.edu">agr5k2@mail.missouri.edu</a></footer>
 </body>
 </html>

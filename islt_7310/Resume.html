@@ -4,27 +4,47 @@
 
         <head>    
         <link rel="stylesheet" href="style.css">
-        <style>
-            a:active {
-              color: green;  
-            }
-        </style>
+        <link rel="stylesheet" href="nav.css">
+
 <!--
 Title: Robinson Resume Page
 Use: Basic Resume Page
 Author: Alex Robinson
 School/Term: University of Missouri, Spring 2020
-Developed: April 12, 2020
-Tested: April 12, 2020; passed on Firefox and Chrome browsers.
+Developed: April 26, 2020
+Tested: April 26, 2020; passed on Firefox and Chrome browsers.
 -->
 
-            <meta charset="utf-8">              
+            <meta charset="utf-8">   
+            <meta name="viewport" content="width=device-width, initial-scale=1">
 
             <title>Resume</title>
 
         </head>
 
-        <body>     
+        <body> 
+    <header>
+    <nav>
+        <label id="hamburger">&#9776;</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>  
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="project.html">Project</a>
+            <ul id="mobileHide">
+                <li><a href="project1.html">Project 1</a></li>
+                <li><a href="project2.html">Project 2</a></li>
+                <li><a href="project3.html">Project 3</a></li>
+            </ul>
+        </li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    </header>
+    <h1>Resume</h1>
+            
+            <h2>Below is a link to my resume. Check it out!</h2>
 
             <a href="docs/RobinsonResume.pdf">Resume</a>
 <footer>Copyright&copy; 2020, Alex Robinson. <a href="mailto:agr5k2@mail.missouri.edu">agr5k2@mail.missouri.edu</a></footer>

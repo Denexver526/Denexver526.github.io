@@ -3,23 +3,47 @@
 <html lang="en-US">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
     <!--
 Title: Robinson Home Page
 Use: Basic Home Page
 Author: Alex Robinson
 School/Term: University of Missouri, Spring 2020
-Developed: April 12, 2020
-Tested: April 12, 2020; passed on Firefox and Chrome browsers.
+Developed: April 26, 2020
+Tested: April 26, 2020; passed on Firefox and Chrome browsers.
 -->
 
             <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
 
             <title>Home Page</title>
 </head>
 <body>
+    <header>
+    <nav>
+        <label id="hamburger">&#9776;</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>  
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="project.html">Project</a>
+            <ul id="mobileHide">
+                <li><a href="project1.html">Project 1</a></li>
+                <li><a href="project2.html">Project 2</a></li>
+                <li><a href="project3.html">Project 3</a></li>
+            </ul>
+        </li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    </header>
 <h1>Alex Robinson</h1>
 <h3>Here is some information about me.</h3>
-<p>My name is Alex Robinson and I live in Columbia Missouri. My background experience is over five years of law enforcement service including work as a security officer at a local college. I have always found success and satisfaction when helping people and with my interest in the use of technology to advance learning I decided to integrate both with a degree in Information Science and Learning Technologies, focusing in Learning Systems Design and Development. My undergraduate degree in education and business has provided me with a strong educational pedagogy. Through law enforcement I have helped people in times of crisis, and with this degree, I plan to pursue work that will help other law enforcement personnel have better training to ensure they are at their best when out in the field.</p>
+    <ul class="flex4">
+        <li id="flex3">My name is Alex Robinson and I live in Columbia Missouri. My background experience is over five years of law enforcement service including work as a security officer at a local college. I have always found success and satisfaction when helping people and with my interest in the use of technology to advance learning I decided to integrate both with a degree in Information Science and Learning Technologies, focusing in Learning Systems Design and Development. My undergraduate degree in education and business has provided me with a strong educational pedagogy. Through law enforcement I have helped people in times of crisis, and with this degree, I plan to pursue work that will help other law enforcement personnel have better training to ensure they are at their best when out in the field.</li>
+        <li id="flex4"><img src="images/robinsonheadshot.jpg" alt="This is my photo"></li>
+    </ul>
     
 <p>The three primary goals are associated to competencies required by the University of Missouri. Those goals are:</p>
 <ol>
@@ -41,8 +65,6 @@ Tested: April 12, 2020; passed on Firefox and Chrome browsers.
 </ul>
 <p>Here is one of my favorite quotes</p>
 <blockquote><em>“Success depends upon previous preparation, and without such preparation there is sure to be failure."</em> - Confucius</blockquote>
-    
-    <img src="images/robinsonheadshot.jpg" alt="This is my photo">
     
 <footer>Copyright&copy; 2020, Alex Robinson. <a href="mailto:agr5k2@mail.missouri.edu">agr5k2@mail.missouri.edu</a></footer>
 </body>

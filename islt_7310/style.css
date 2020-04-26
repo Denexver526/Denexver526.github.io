@@ -3,8 +3,8 @@ Title: Robinson CSS page
 Use: To make my webpages look fancy
 Author: Alex Robinson
 School/Term: University of Missouri, Spring 2020
-Developed: April 12, 2020
-Tested: April 12, 2020; passed on Firefox and Chrome browsers.
+Developed: April 26, 2020
+Tested: April 26, 2020; passed on Firefox and Chrome browsers.
 -->*/
 
 body {
@@ -20,15 +20,23 @@ border-style: solid;
 border-width: thick;
 border-color: black;
 background-color: blue;
+
 }
 
 h3 {
- color: #cc0000;
  font-size: 14pt;
 }
 
 p {
  font-size: 12pt;
+}
+
+.first::first-letter{
+    font-size: 150%;
+}
+
+.tab::first-line{
+    text-indent: 50px;
 }
 
 .current{
@@ -54,9 +62,109 @@ a{
     text-decoration: none;
     font-size: 10pt
 }
+ a:active {
+    color: green;  
+}
 
 img {
  float: left;
  margin: 2px;
  padding: 20px;
+}
+
+
+    
+ul.flex {
+    list-style-type: none;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 325px;
+}
+    
+.flex{
+    display: flex;
+    border: 1px solid red;
+}
+
+#flex1{
+    border: 1px solid red;
+    width: 24%;
+    background-color: #8cacea;
+    padding: 2px;
+    align-self: center;
+    background-color: blue;
+    color: lightgray;
+}
+
+#flex2{
+    width: 70%;
+    height: 100px;
+}
+
+.flex3{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: .8em;
+    justify-content: space-around;
+}
+
+.flex4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+#flex3{
+    width: 60%
+}
+
+#flex4{
+    width: 40%
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+ background-color: #cc0000;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #C0C0C0;
+  padding: 20px;
+}
+
+@media screen and (max-width:640px){
+    body{
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:565px){
+    img{
+        width: 100%;
+        height: auto;
+    }
 }
