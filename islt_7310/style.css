@@ -78,7 +78,7 @@ ul.flex {
     list-style-type: none;
     flex-flow: row wrap;
     justify-content: space-around;
-    height: 325px;
+    height: 330px;
 }
     
 .flex{
