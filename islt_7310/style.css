@@ -55,6 +55,14 @@ footer {
  padding: 5px;
 }
 
+.box{
+    background-image: url(images/background.jpg);
+}
+
+.icon{
+    float: none;
+}
+
 a:hover{
  color: red;
 }
