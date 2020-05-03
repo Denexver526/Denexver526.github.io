@@ -39,12 +39,13 @@ p {
     text-indent: 50px;
 }
 
-.current{
- color: red;
+.bold{
+    font-weight: bold;
 }
 
-.old{
- color: blue;
+.boldbig{
+    font-weight: bold;
+    font-size: 125%;
 }
 
 .font{
@@ -65,6 +66,10 @@ footer {
 
 .icon{
     float: none;
+}
+
+.icon:hover{
+    width: 30px;
 }
 
 a:hover{
@@ -167,6 +172,8 @@ div {
   background-color: #C0C0C0;
   padding: 20px;
 }
+
+
 
 @media screen and (max-width:640px){
     body{
