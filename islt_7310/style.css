@@ -13,13 +13,13 @@ margin: 15px;
 }
 
 h1 {
-color: #cc0000; 
+color: #708090; 
 font-size: 16pt;
 font-family: sans-serif;
 border-style: solid;
 border-width: thick;
 border-color: black;
-background-color: blue;
+background-color: #D7D7D7;
 
 }
 
@@ -95,7 +95,7 @@ ul.flex {
     list-style-type: none;
     flex-flow: row wrap;
     justify-content: space-around;
-    height: 330px;
+    height: 400px;
 }
     
 .flex{
@@ -173,11 +173,31 @@ div {
   padding: 20px;
 }
 
+table{
+    border: 1px solid;
+}
+
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #708090;
+}
+
+#top{
+    background-color: #6E6E6E;
+}
 
 
 @media screen and (max-width:640px){
     body{
         background-color: white;
+    }
+    
+    main{
+        overflow: scroll;
     }
 }
 
